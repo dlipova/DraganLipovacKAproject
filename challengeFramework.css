@@ -31,6 +31,8 @@ body{
 
 #feedback{
   flex-direction: row;
+  -webkit-flex-flow: row;
+  -webkit-flex-direction: row;
   width: 100%;
   height: 100%;
   border: 6px solid #F2AC57;
