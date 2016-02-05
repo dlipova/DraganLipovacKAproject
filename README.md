@@ -1,10 +1,10 @@
 # DraganLipovacKAproject
 Khan Academy javascript project submission
-
-main files are:
-challengeFramework.html
-challengeFramework.js
-challengeFramework.css
-codeVerify.js --> API
-
+<br />
+main files are:<br />
+challengeFramework.html<br />
+challengeFramework.js<br />
+challengeFramework.css<br />
+codeVerify.js --> API<br />
+<br />
 Please check out the demo video within the files (challengeFrameworkDemoVideo.mov)
