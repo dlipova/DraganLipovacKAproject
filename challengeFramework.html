@@ -14,17 +14,17 @@
 		     <div id="editor"> </div>
 		     <div id="feedback">
            <div id="whiteTest">
-              <span>whitelist test: </span>
+              <span class="testTitle">whitelist test : </span>
               <select id="whiteTestDropDown" multiple ="multiple">
                  <option value="ForStatement">contains a for loop</option>
                  <option value="VariableDeclaration">declares a variable</option>
-                 <option value="mathRandomFunction">uses the Math.random() function</option>
+                 <option value="declareFunction">declares a function</option>
               </select>
               <table id="whiteTestFeedback">
               </table>
            </div>
            <div id="blackTest" multiple ="multiple">
-              <span>blacklist test: </span>
+              <span class="testTitle">blacklist test : </span>
               <select id="blackTestDropDown" multiple ="multiple">
                  <option value="noWhileStatement">does not contain while loop </option>
                  <option value="noIfStatement">does not contain if statement</option>
@@ -34,18 +34,18 @@
               </table>
            </div>
            <div id="structureTest" multiple ="multiple">
-              <span>structure test: </span>
+              <span class="testTitle">structure test : </span>
               <select id="structureTestDropDown" multiple ="multiple">
-                 <option value="ifInsideWhile">contains if statement inside for loop </option>
-                 <option value="forInsideFor">contains nested for loop </option>
-                 <option value="IfStatement">contains if statement </option>
+                 <option value="ifInsideFor">contains if statement inside for loop </option>
+                 <option value="ForInsideFor">contains nested for loop </option>
+                 <option value="ifsInsideWhile">contains multiple ifs inside while </option>
               </select>
               <table id="structureTestFeedback" style="width: 100%">
               </table>
            </div>
        </div>
 	   </div>
-   <script src="analyze.js"></script>
+   <script src="codeVerifyTestFunctions.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
    <script type="text/javascript" src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
    <script type="text/javascript" src="bootstrap-multiselect-master/dist/js/bootstrap-multiselect.js"></script>
