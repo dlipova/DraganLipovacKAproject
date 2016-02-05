@@ -1,0 +1,54 @@
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+html{
+ height: 100%;
+}
+
+body{
+   font-family:  "Open Sans", sans-serif;
+   height: 100%;
+}
+
+#container, #feedback{
+   display: flex;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   flex-direction: column;
+   -webkit-flex-flow: column;
+   -webkit-flex-direction: column;
+   height: 100%;
+}
+
+#feedback{
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  border: 5px solid #FAB700;
+}
+
+#editor{
+   border: 5px solid black;
+   height: 100%;
+}
+
+#whiteTest, #blackTest, #structureTest{
+   width: 100%;
+   border: 1px solid black;
+   padding: 3px;
+}
+
+table{
+ margin-top: 10px;
+ width: 100%;
+}
+
+table th, table td{
+   padding: 3px;
+}
+
+
+
+
