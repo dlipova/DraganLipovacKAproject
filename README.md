@@ -1,5 +1,5 @@
-# DraganLipovacKAproject
-Khan Academy javascript project submission
+# DraganLipovacKAproject<br />
+Khan Academy javascript project submission<br />
 <br />
 main files are:<br />
 challengeFramework.html<br />
